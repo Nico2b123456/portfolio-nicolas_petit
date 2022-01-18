@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(98, 192, 255);
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 96px;
+}
+
+
+#conteneurprincipal {
+    margin-top: 20px;
+    margin-left: 24%;
+    margin-right: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#conteneurcompetences {
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.competence {
+    height:720px;
+    width: 437px;
+    background: rgba(50, 38, 38, 0.5);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.competence > p {
+    margin-top: 10%;
+}
+
+#screeninsta {
+    position: relative;
+    margin-top: 30px;
+}
+
+#video {
+    position: relative;
+    margin-top: 33.3333333%;
+}
+
+#communication {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    height:661px;
+    width: 991px;
+    background: rgba(50, 38, 38, 0.5);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+#communication > p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

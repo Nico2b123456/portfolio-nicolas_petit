@@ -1,0 +1,48 @@
+@media only screen
+and (orientation: portrait) {
+
+    #conteneurprincipal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #reseauxsociaux {
+        margin-top: 100px;
+        display: flex;
+        background: rgba(50, 38, 38, 0.5);
+        border-radius: 30px;
+        width: 32vh;
+        height: 75vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logoettexte {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        font-family: "Poppins", Arial, sans-serif;
+        font-size: 32px;
+    }
+    
+    #images {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        gap: 100px;
+        margin-right: 5vh;
+    }
+
+    .logoreseau {
+        width: 10vh;
+    }
+    
+    .logo {
+        width: 75px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}

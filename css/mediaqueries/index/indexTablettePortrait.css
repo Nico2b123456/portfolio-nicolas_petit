@@ -1,0 +1,138 @@
+/* Tablettes (portrait) ----------- */
+@media only screen 
+and (min-width : 720px) 
+and (max-width : 1080px) 
+and (orientation : portrait) {
+    a {
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+    }
+    
+    body {
+        background-color: rgb(236, 162, 181);
+    }
+    
+    
+    .horizontal {
+        
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    #conteneurgaucheaccueil {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 0px;
+        align-items: center;
+    }
+    
+    h1 {
+        font-family: 'Poppins', arial, sans-serif;
+        font-size: 42px;
+        color: white;
+        text-align: center;
+    }
+    
+    #adressemail {
+        font-size: 16px;
+        font-family: "Poppins", arial, sans-serif;
+        color: white;
+        right: 100%;
+    }
+    
+    #conteneurtextepresentation {
+        width: 600px;
+    }
+    
+    #textepresentation {
+        font-size: 16px;
+        font-family: "Poppins", Arial, sans-serif;
+        color: white;
+        text-align: justify;
+        width: 600px;
+    }
+    
+    #conteneurboutonaccueilgauche {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    
+    #encoreunediv {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bouton {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-family: "Poppins", Arial, sans-serif;
+        font-size: 32px;
+        color: white;
+        background-color:rgba(50, 38,38,0.5);
+        width: 256px;
+        height: 128px;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+    
+    .emoji {
+        width: 32px;
+    }
+    
+    #conteneurdroiteaccueil {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #identite {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #nomprenom {
+        position: relative;
+        bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-family: "Poppins", Arial, sans-serif;
+        font-size: 16px;
+        color: white;
+        background-color:rgba(50, 38,38,0.5);
+        width: 100%;
+        height: 80px;
+        border-radius: 20px;
+    }
+    
+    #pp {
+        border-radius: 100%;
+    }
+    
+    .imagereseaux {
+        width: 75px;
+    }
+    
+    #reseaux {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        bottom: 20px;
+    }
+}

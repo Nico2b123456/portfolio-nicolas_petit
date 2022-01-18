@@ -1,0 +1,188 @@
+.bounce-top{animation:bounce-top .9s both}
+@keyframes bounce-top{0%{transform:translateY(-45px);animation-timing-function:ease-in;opacity:1}24%{opacity:1}40%{transform:translateY(-24px);animation-timing-function:ease-in}65%{transform:translateY(-12px);animation-timing-function:ease-in}82%{transform:translateY(-6px);animation-timing-function:ease-in}93%{transform:translateY(-4px);animation-timing-function:ease-in}25%,55%,75%,87%{transform:translateY(0);animation-timing-function:ease-out}100%{transform:translateY(0);animation-timing-function:ease-out;opacity:1}}
+
+
+
+@media only screen
+and (orientation: landscape) {
+
+    #conteneurprincipal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #reseauxsociaux {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 600px;
+        background: rgba(50, 38, 38, 0.5);
+        border-radius: 30px;
+        margin: -38px;
+        margin-top: 31px;
+    }
+    
+    .logoettexte {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        font-family: "Poppins", Arial, sans-serif;
+        font-size: 35px;
+    }
+    
+    #images {
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .logoreseau {
+        width: 75px;
+    }
+    
+    .logo {
+        width: 75px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+
+
+	@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+	body{
+	height: 100%; 
+	font-family: 'Noto Sans', sans-serif;
+  background-color: #ec576b; 
+	}
+
+
+	.contact_form{	
+	width: 450px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px; 
+	text-align: left; 
+	padding-top: 30px;
+	padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+    display: flex;
+	}
+
+
+	input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ec576b; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+	}
+
+
+	textarea{
+    background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ec576b; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+	}
+
+
+	label{
+    display: block; 
+	float: center; 	
+	}
+
+
+	button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #ec576b; 
+	border-color: #ec576b; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+    cursor: pointer;
+	}
+
+
+	button p{
+	color: #fff; 
+	}
+
+
+	span{
+	color: #ec576b; 
+	}
+
+
+	.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+	}
+
+
+	h1{
+	font-size: 35px;  
+	text-align: center; 
+	padding-bottom: 20px; 
+	color: #ec576b;
+	}
+
+
+	h3{
+	font-size: 14px; 
+	padding-bottom: 30px;
+	color: #0e0e0e;   
+	}
+
+
+	p{
+	font-size: 14px; 
+	color: #0e0e0e; 
+	}
+
+
+	::-webkit-input-placeholder {
+ color: #a8a8a8;
+	}
+
+
+	::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+	}
+
+
+	.formulaire input:focus{
+	outline:0;
+	border: 1px solid #97d848;
+	}
+
+
+	.formulaire textarea:focus{
+	outline:0;
+	border: 1px solid #97d848;
+	}
+
+}

@@ -1,0 +1,107 @@
+@media only screen 
+and (min-width : 1024px) 
+and (max-width : 1224px) 
+and (orientation : landscape) {
+    
+    header {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #fleche {
+        position: relative;
+        right: 200px;
+        
+    }
+    
+    body {
+        background-color: rgb(98, 192, 255);
+        font-family: "Poppins", Arial, sans-serif;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 96px;
+        margin-top: 20px;
+    }
+    
+    #conteneurprincipal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        align-items: center
+    }
+    
+    #conteneurcompetences {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    
+    .competence {
+        height:640px;
+        width: 400px;
+        background: rgba(50, 38, 38, 0.5);
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    
+    .competence > p {
+        margin-top: 10%;
+    }
+
+    .competence:nth-child(1) > img {
+        width: 272px;
+    }
+
+    .competence:nth-child(2) > img {
+        width: 300px;
+        margin-top: 106px;
+    }
+    
+    #screeninsta {
+        position: relative;
+        margin-top: 30px;
+    }
+    
+    #video {
+        position: relative;
+        margin-top: 33.3333333%;
+    }
+    
+    #communication {
+        margin-top: 20px;
+        display: flex;
+        height:540px;
+        width: 820px;
+        background: rgba(50, 38, 38, 0.5);
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    #communication > p {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #communication > img {
+        width: 680px;
+    }
+}

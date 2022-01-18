@@ -1,0 +1,47 @@
+@media only screen
+and (orientation: portrait) {
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #fleche {
+        display: none;
+    }
+    
+    h1 {
+        writing-mode: vertical-lr;
+        font-size: 18vh;
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        margin-right: -3vh;
+    }
+    
+    p {
+        text-align: center;
+    }
+    
+    #letableau {
+        margin-top: 30px;
+        width: 1500px;
+    }
+    
+    #conteneurprincipal {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #center {
+        display: none;
+    }
+    
+    #texte {
+        display: flex;
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        font-size: 2vh;
+        margin-right: 6.5vh;
+    }
+}

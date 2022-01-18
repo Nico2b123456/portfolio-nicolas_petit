@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('../assets/polices/Poppins-Medium.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", Arial, sans-serif;
+}
